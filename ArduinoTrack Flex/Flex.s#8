@@ -18823,7 +18823,7 @@ Custom Module</text>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="+3V35" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V37" library="supply1" deviceset="+3V3" device=""/>
-<part name="U5" library="SparkFun-PowerIC" deviceset="V_REG_LDO" device="SMD">
+<part name="U5" library="SparkFun-PowerIC" deviceset="V_REG_LDO" device="SMD" value="LP3985IM5-3.3/NOPB">
 <attribute name="DIGIKEY" value="LP3985IM5-3.3/NOPBCT-ND"/>
 </part>
 <part name="C14" library="resistor" deviceset="C-US" device="C0805" value=".1uF">
@@ -18838,11 +18838,11 @@ Custom Module</text>
 <part name="X1" library="con-coax" deviceset="BU-SMA-H" device="">
 <attribute name="DIGIKEY" value="CONSMA001-ND"/>
 </part>
-<part name="SV2" library="con-lstb" deviceset="MA03-1" device="">
+<part name="SV2" library="con-lstb" deviceset="MA03-1" device="" value="1x3 HEADER">
 <attribute name="DIGIKEY" value="952-2264-ND"/>
 </part>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="S1" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="SMD">
+<part name="S1" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="SMD" value="RESET">
 <attribute name="DIGIKEY" value="CKN9104CT-ND"/>
 </part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
@@ -18866,10 +18866,10 @@ Custom Module</text>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V36" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="SV3" library="con-lstb" deviceset="MA03-1" device="">
+<part name="SV3" library="con-lstb" deviceset="MA03-1" device="" value="1x3 HEADER">
 <attribute name="DIGIKEY" value="952-2264-ND"/>
 </part>
-<part name="SV1" library="con-lstb" deviceset="MA03-2" device="">
+<part name="SV1" library="con-lstb" deviceset="MA03-2" device="" value="2x3 HEADER">
 <attribute name="DIGIKEY" value="952-2121-ND"/>
 </part>
 <part name="U6" library="linear" deviceset="OPA725" device="DBV" value="MCP6L01T">

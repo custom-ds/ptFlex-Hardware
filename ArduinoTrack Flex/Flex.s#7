@@ -18811,7 +18811,7 @@ Custom Module</text>
 <attribute name="DIGIKEY" value="240-2411-1-ND"/>
 </part>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
-<part name="ANT1" library="Parts" deviceset="GPS_ANT_SMDBAR" device="">
+<part name="ANT1" library="Parts" deviceset="GPS_ANT_SMDBAR" device="" value="GPS ANTENNA">
 <attribute name="DIGIKEY" value="712-1003-1-ND"/>
 </part>
 <part name="C15" library="resistor" deviceset="C-US" device="C0805" value=".1uF">
@@ -18838,11 +18838,11 @@ Custom Module</text>
 <part name="X1" library="con-coax" deviceset="BU-SMA-H" device="">
 <attribute name="DIGIKEY" value="CONSMA001-ND"/>
 </part>
-<part name="SV2" library="con-lstb" deviceset="MA03-1" device="">
+<part name="SV2" library="con-lstb" deviceset="MA03-1" device="" value="1x3 HEADER">
 <attribute name="DIGIKEY" value="952-2264-ND"/>
 </part>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="S1" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="SMD">
+<part name="S1" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="SMD" value="RESET">
 <attribute name="DIGIKEY" value="CKN9104CT-ND"/>
 </part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
@@ -18851,6 +18851,7 @@ Custom Module</text>
 </part>
 <part name="U2" library="Ava" deviceset="UBLOX_MAX" device="">
 <attribute name="ALT-PART" value="UBLOX MAX-M8Q"/>
+<attribute name="DIGIKEY" value="672-1003-1-ND"/>
 </part>
 <part name="+3V33" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
@@ -18866,10 +18867,10 @@ Custom Module</text>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V36" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="SV3" library="con-lstb" deviceset="MA03-1" device="">
+<part name="SV3" library="con-lstb" deviceset="MA03-1" device="" value="1x3 HEADER">
 <attribute name="DIGIKEY" value="952-2264-ND"/>
 </part>
-<part name="SV1" library="con-lstb" deviceset="MA03-2" device="">
+<part name="SV1" library="con-lstb" deviceset="MA03-2" device="" value="2x3 HEADER">
 <attribute name="DIGIKEY" value="952-2121-ND"/>
 </part>
 <part name="U6" library="linear" deviceset="OPA725" device="DBV" value="MCP6L01T">
@@ -19084,6 +19085,7 @@ Custom Module</text>
 </instance>
 <instance part="U2" gate="G$1" x="205.74" y="48.26" rot="R180">
 <attribute name="ALT-PART" x="210.82" y="27.94" size="1.778" layer="96" rot="R180"/>
+<attribute name="DIGIKEY" x="205.74" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="+3V33" gate="G$1" x="58.42" y="76.2"/>
 <instance part="GND14" gate="1" x="231.14" y="25.4"/>
