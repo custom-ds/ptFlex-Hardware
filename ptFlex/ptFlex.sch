@@ -15824,9 +15824,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="D1" library="custom-ds" deviceset="DIODE-" device="SOD123" value="1N4148W">
 <attribute name="DIGIKEY" value="1N4148W-FDICT-ND"/>
 </part>
-<part name="SV2" library="SparkFun-Connectors" deviceset="I2C_STANDARD" device="QWIIC" value="Qwiic Right Angle"/>
+<part name="SV2" library="SparkFun-Connectors" deviceset="I2C_STANDARD" device="QWIIC" value="Qwiic Right Angle">
+<attribute name="DIGIKEY" value="455-1804-1-ND"/>
+</part>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
-<part name="U8" library="SparkFun-Sensors" deviceset="BME280" device="" value="BME280"/>
+<part name="U8" library="SparkFun-Sensors" deviceset="BME280" device="" value="BME280">
+<attribute name="DIGIKEY" value="828-1063-1-ND"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -16055,9 +16059,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="D1" gate="G$1" x="45.72" y="185.42" rot="R90">
 <attribute name="DIGIKEY" x="45.72" y="185.42" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="SV2" gate="G$1" x="175.26" y="167.64" rot="R270"/>
+<instance part="SV2" gate="G$1" x="175.26" y="167.64" rot="R270">
+<attribute name="DIGIKEY" x="175.26" y="167.64" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
 <instance part="GND18" gate="1" x="172.72" y="149.86"/>
-<instance part="U8" gate="U1" x="33.02" y="50.8"/>
+<instance part="U8" gate="U1" x="33.02" y="50.8">
+<attribute name="DIGIKEY" x="33.02" y="50.8" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>

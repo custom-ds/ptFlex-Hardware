@@ -164,7 +164,7 @@
 TX
 RX</text>
 <text x="20.0025" y="20.0025" size="0.8128" layer="25" font="vector">Reset</text>
-<text x="51.435" y="61.9125" size="0.8128" layer="25" font="vector" rot="R90" align="top-center">ptFlex v1.03
+<text x="51.435" y="61.9125" size="0.8128" layer="25" font="vector" rot="R90" align="top-center">Project: Traveler ptFlex v1.03
 Custom Digital Services, LLC
 www.custom-ds.com</text>
 <text x="62.23" y="47.625" size="0.8128" layer="25" font="vector" rot="R90">GPS Antenna</text>
